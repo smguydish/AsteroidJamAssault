@@ -79,7 +79,7 @@ namespace Asteroid_Belt_Assault
             starField = new StarField(
                 this.Window.ClientBounds.Width,
                 this.Window.ClientBounds.Height,
-                200,
+                300,
                 new Vector2(0, 30f),
                 spriteSheet,
                 new Rectangle(0, 450, 2, 2));
