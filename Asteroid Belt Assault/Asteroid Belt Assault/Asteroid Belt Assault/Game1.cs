@@ -79,7 +79,7 @@ namespace Asteroid_Belt_Assault
             starField = new StarField(
                 this.Window.ClientBounds.Width,
                 this.Window.ClientBounds.Height,
-                300,
+                200,
                 new Vector2(0, 30f),
                 spriteSheet,
                 new Rectangle(0, 450, 2, 2));
@@ -164,12 +164,18 @@ namespace Asteroid_Belt_Assault
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if ((Keyboard.GetState().IsKeyDown(Keys.Escape)) ||
+                (GamePad.GetState(PlayerIndex.One).Buttons.Back ==
+                ButtonState.Pressed))
                 this.Exit();
 
-            // TODO: Add your update logic here
+            if (Keyboard.GetState().IsKeyDown(Keys.L))
+                this.resetGame();
 
-            switch (gameState)
+
+                // TODO: Add your update logic here
+
+                switch (gameState)
             {
                 case GameStates.TitleScreen:
                     titleScreenTimer +=
