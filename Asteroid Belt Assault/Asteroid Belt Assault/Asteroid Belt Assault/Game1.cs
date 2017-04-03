@@ -208,7 +208,7 @@ namespace Asteroid_Belt_Assault
 
                     if (playerManager.Destroyed)
                     {
-                        playerDeathTimer = 0f;
+                        playerDeathTimer = 8f;
                         enemyManager.Active = false;
                         playerManager.LivesRemaining--;
                         if (playerManager.LivesRemaining < 0)
