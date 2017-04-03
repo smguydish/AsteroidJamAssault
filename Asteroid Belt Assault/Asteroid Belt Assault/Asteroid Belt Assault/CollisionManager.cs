@@ -43,7 +43,7 @@ namespace Asteroid_Belt_Assault
                         playerManager.PlayerScore += enemyPointValue;
                         explosionManager.AddExplosion(
                             enemy.EnemySprite.Center,
-                            enemy.EnemySprite.Velocity / 10);
+                            enemy.EnemySprite.Velocity / 10, 2);
                     }
 
                 }
@@ -79,7 +79,7 @@ namespace Asteroid_Belt_Assault
                     playerManager.Destroyed = true;
                     explosionManager.AddExplosion(
                         playerManager.playerSprite.Center,
-                        Vector2.Zero);
+                        Vector2.Zero, 1);
                 }
             }
         }
@@ -101,7 +101,7 @@ namespace Asteroid_Belt_Assault
 
                     explosionManager.AddExplosion(
                         playerManager.playerSprite.Center,
-                        Vector2.Zero);
+                        Vector2.Zero, 1);
                 }
             }
         }
@@ -123,7 +123,7 @@ namespace Asteroid_Belt_Assault
                     playerManager.Destroyed = true;
                     explosionManager.AddExplosion(
                         playerManager.playerSprite.Center,
-                        Vector2.Zero);
+                        Vector2.Zero, 1);
                 }
             }
         }

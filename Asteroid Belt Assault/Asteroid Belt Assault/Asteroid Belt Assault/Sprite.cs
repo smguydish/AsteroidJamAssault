@@ -28,6 +28,9 @@ namespace Asteroid_Belt_Assault
         protected Vector2 location = Vector2.Zero;
         protected Vector2 velocity = Vector2.Zero;
 
+        public bool PlayOnce = false;
+        private bool Done = false;
+
         public Sprite(
             Vector2 location,
             Texture2D texture,
@@ -149,6 +152,8 @@ namespace Asteroid_Belt_Assault
             if (timeForCurrentFrame >= FrameTime)
             {
                 currentFrame = (currentFrame + 1) % (frames.Count);
+                if (currentFrame == 0 && PlayOnce)
+                    Done = true;
                 timeForCurrentFrame = 0.0f;
             }
 
@@ -157,6 +162,7 @@ namespace Asteroid_Belt_Assault
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
+            if (!Done)
             spriteBatch.Draw(
                 Texture,
                 Center,

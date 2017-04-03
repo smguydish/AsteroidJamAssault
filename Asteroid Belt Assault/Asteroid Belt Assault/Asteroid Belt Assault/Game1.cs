@@ -117,7 +117,9 @@ namespace Asteroid_Belt_Assault
                 spriteSheet,
                 new Rectangle(0, 100, 50, 50),
                 3,
-                new Rectangle(0, 450, 2, 2));
+                new Rectangle(0, 450, 2, 2),
+                Content.Load<Texture2D>(@"Textures\explosion"),
+                Content.Load<Texture2D>(@"Textures\explosion2"));
 
             collisionManager = new CollisionManager(
                 asteroidManager,
@@ -283,6 +285,11 @@ namespace Asteroid_Belt_Assault
                 asteroidManager.Draw(spriteBatch);
                 playerManager.Draw(spriteBatch);
                 enemyManager.Draw(spriteBatch);
+
+                spriteBatch.End();
+
+                spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.Additive);
+
                 explosionManager.Draw(spriteBatch);
 
                 spriteBatch.DrawString(

@@ -47,9 +47,9 @@ namespace Asteroid_Belt_Assault
             playerAreaLimit =
                 new Rectangle(
                     0,
-                    screenBounds.Height / 2,
+                    50,
                     screenBounds.Width,
-                    screenBounds.Height / 2);
+                    screenBounds.Height-50 );
 
             for (int x = 1; x < frameCount; x++)
             {
