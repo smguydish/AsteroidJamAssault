@@ -34,3 +34,4 @@ C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Astero
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.csprojResolveAssemblyReference.cache
