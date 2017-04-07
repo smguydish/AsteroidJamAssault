@@ -141,6 +141,8 @@ namespace Asteroid_Belt_Assault
                 ExplosionParticles.Add(
                     p
                     );
+
+                SoundManager.PlayExplosion(3);
             }
             else if (type == 2)
             {
@@ -164,6 +166,12 @@ namespace Asteroid_Belt_Assault
                 ExplosionParticles.Add(
                     p
                     );
+
+                SoundManager.PlayExplosion(3);
+            }
+            else
+            {
+                SoundManager.PlayExplosion();
             }
 
             int points = rand.Next(minPointCount, maxPointCount + 1);
@@ -182,7 +190,7 @@ namespace Asteroid_Belt_Assault
                     finalColor));
 
             }
-            SoundManager.PlayExplosion();
+            
         }
 
         public void Update(GameTime gameTime)

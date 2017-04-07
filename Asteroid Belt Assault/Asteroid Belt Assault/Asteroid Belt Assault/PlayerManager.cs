@@ -77,6 +77,7 @@ namespace Asteroid_Belt_Assault
 
         private void HandleKeyboardInput(KeyboardState keyState)
         {
+            // Arrow Keys - Used for Movement
             if (keyState.IsKeyDown(Keys.Up))
             {
                 playerSprite.Velocity += new Vector2(0, -1);
@@ -97,6 +98,28 @@ namespace Asteroid_Belt_Assault
                 playerSprite.Velocity += new Vector2(1, 0);
             }
 
+            // WASD - Used for Movement
+            if (keyState.IsKeyDown(Keys.W))
+            {
+                playerSprite.Velocity += new Vector2(0, -1);
+            }
+
+            if (keyState.IsKeyDown(Keys.S))
+            {
+                playerSprite.Velocity += new Vector2(0, 1);
+            }
+
+            if (keyState.IsKeyDown(Keys.A))
+            {
+                playerSprite.Velocity += new Vector2(-1, 0);
+            }
+
+            if (keyState.IsKeyDown(Keys.D))
+            {
+                playerSprite.Velocity += new Vector2(1, 0);
+            }
+
+            // Space Bar - Used for Shooting
             if (keyState.IsKeyDown(Keys.Space))
             {
                 FireShot();

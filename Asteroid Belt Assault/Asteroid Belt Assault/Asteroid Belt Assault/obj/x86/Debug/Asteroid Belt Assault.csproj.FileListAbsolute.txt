@@ -35,3 +35,9 @@ C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Astero
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
 C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Lil Bow Wow - Basketball.xnb
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Space Jam Theme Song.xnb
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Lil Bow Wow - Basketball.wma
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Space Jam Theme Song.wma
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Slave1-Guns.xnb
+C:\Users\eahscs\Documents\GitHub\AsteroidJamAssault\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Slave1-Seismic.xnb

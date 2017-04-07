@@ -9,3 +9,9 @@ Content\Sounds\Explosion4.xnb
 Content\Sounds\Shot1.xnb
 Content\Sounds\Shot2.xnb
 Content\Fonts\Pericles14.xnb
+Content\Sounds\Lil Bow Wow - Basketball.xnb
+Content\Sounds\Lil Bow Wow - Basketball.wma
+Content\Sounds\Space Jam Theme Song.xnb
+Content\Sounds\Space Jam Theme Song.wma
+Content\Sounds\Slave1-Guns.xnb
+Content\Sounds\Slave1-Seismic.xnb

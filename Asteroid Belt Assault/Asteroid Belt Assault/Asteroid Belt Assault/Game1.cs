@@ -32,6 +32,8 @@ namespace Asteroid_Belt_Assault
 
         CollisionManager collisionManager;
 
+
+
         SpriteFont pericles14;
 
         private float playerDeathDelayTime = 10f;
@@ -128,6 +130,7 @@ namespace Asteroid_Belt_Assault
                 explosionManager);
 
             SoundManager.Initialize(Content);
+            SoundManager.PlaySong(SoundManager.titleSong);
 
             pericles14 = Content.Load<SpriteFont>(@"Fonts\Pericles14");
 
@@ -192,6 +195,8 @@ namespace Asteroid_Belt_Assault
                             playerManager.LivesRemaining = playerStartingLives;
                             playerManager.PlayerScore = 0;
                             resetGame();
+                            SoundManager.StopSong();
+                            SoundManager.PlaySong(SoundManager.gameSong);
                             gameState = GameStates.Playing;
                         }
                     }
