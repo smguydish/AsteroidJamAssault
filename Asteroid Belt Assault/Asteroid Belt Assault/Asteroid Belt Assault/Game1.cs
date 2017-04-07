@@ -50,6 +50,7 @@ namespace Asteroid_Belt_Assault
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
         }
 
@@ -307,7 +308,7 @@ namespace Asteroid_Belt_Assault
                 {
                     spriteBatch.DrawString(
                         pericles14,
-                        "Ships Remaining: " +
+                        "Bunnies Remaining: " +
                             playerManager.LivesRemaining.ToString(),
                         livesLocation,
                         Color.White);
@@ -318,10 +319,11 @@ namespace Asteroid_Belt_Assault
             {
                 spriteBatch.DrawString(
                     pericles14,
-                    "G A M E  O V E R !",
+                    "Too bad you can't practice getting taller, boys! - Daffy Duck",
+
                     new Vector2(
                         this.Window.ClientBounds.Width / 2 -
-                          pericles14.MeasureString("G A M E  O V E R !").X / 2,
+                          pericles14.MeasureString("Too bad you can't practice getting taller, boys! - Daffy Duck").X / 2,
                         50),
                     Color.White);
             }
